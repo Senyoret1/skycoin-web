@@ -96,7 +96,7 @@ export class WalletsPage {
   }
 
   waitUntilLoading() {
-    browser.wait(ExpectedConditions.invisibilityOf(element(by.css('mat-spinner'))), 5000);
+    browser.wait(ExpectedConditions.invisibilityOf(element(by.css('mat-spinner'))), 15000);
   }
 
   waitUntilWalletIsCreated() {
