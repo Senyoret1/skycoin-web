@@ -45,12 +45,24 @@
 
   button {
     height: 50px;
-    width: 50px;
+    width: 24px;
     display: inline-block;
     opacity: 0.9;
+    margin-right: 10px;
 
     &:hover {
       opacity: 1;
+    }
+
+    ::ng-deep .mat-ripple {
+      height: 40px;
+      width: 40px;
+      top: 7px;
+      left: -8px;
+    }
+
+    ::ng-deep .mat-button-focus-overlay {
+      background: none;
     }
   }
 }
