@@ -91,4 +91,4 @@ Perform these actions before releasing:
 
 - Test if all options are working correctly when opening the wallet on the test server (using `npm start`). Load a wallet with balance and try to send coins, to verify if the functions for loading wallets and creating transactions work correctly.
 
-- Test if all options are working correctly when opening the wallet from the local file system (the compilation is done by executing `make build-for-local-fs`). In the local version it is important to check all the pages and make sure that all the images load correctly. For this it is useful to go through all pages while the development console is open. 
+- Test if all options are working correctly when opening the wallet from the local file system (the compilation is done by executing `make build-for-local-fs`). In the local version it is important to check all the pages and make sure that all the images load correctly. For this it is useful to go through all pages while the development console is open.  
